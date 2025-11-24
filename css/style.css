@@ -1,0 +1,333 @@
+/* All common css start */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.7;
+}
+
+/* All common css end */
+
+/* Header Part Start */
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.navbar-brand img {
+    transition: .4s;
+}
+
+
+.navbar-nav {
+    transition: .4s;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #DDD;
+    font-family: "Oswald", sans-serif;
+    transition: .5s !important;
+}
+
+.nav-item a:hover {
+    font-size: 18px;
+    font-weight: 700;
+    color: #c5a6a6be;
+    background: rgba(245, 81, 52, 0.767);
+    border-radius: .5% ;
+}
+
+
+.headerSocial a {
+    margin: 0 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    transition: .5s;
+}
+
+.headerSocial a:hover {
+    font-size: 18px;
+    font-weight: 700;
+    color: #c5a6a6be;
+    background: rgba(245, 81, 52, 0.767);
+    border-radius: .5% ;
+}
+
+
+
+/* Header Part End */
+
+/* Bannar Part Start */
+
+#bannarPart {
+    padding: 340px 0 100px 0;
+    background: url(../images/Banner.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannar h3 {
+    font-size: 27px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 40px;
+}
+
+.bannar h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 90px;
+    position: relative;
+}
+
+.bannar h1::after {
+    position: absolute;
+    height: 4px;
+    width: 90px;
+    background: #fff;
+    top: 67px;
+    right: 26px;
+    content: "";
+}
+
+.bannar p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    width: 521px;
+    line-height: 24px;
+    padding-bottom: 50px;
+}
+
+.bannarBtn a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #121212;
+    font-family: "Oswald", sans-serif;
+    padding: 15px 25px;
+    background: #fff;
+    transition: .5s;
+}
+
+.bannarBtn a:hover {
+    font-size: 18px;
+    font-weight: 700;
+    color: #c5a6a6be;
+    background: rgba(245, 81, 52, 0.767);
+    border-radius: .5% ;
+}
+
+.bannarSocialpart {
+    padding-top: 160px;
+}
+
+.bannarSocial {
+    padding: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: .5s;
+}
+
+
+.bannarSocial a {
+    font-size: 35px;
+    color: #D9D9D9;
+    margin: 10px;
+    transition: .5s;
+}
+
+.bannarSocial a:hover {
+    font-size: 30px;
+    font-weight: 700;
+    color: #c5a6a6be;
+    background: rgba(245, 81, 52, 0.767);
+    border-radius: .5% ;
+}
+/* Bannar Part End */
+
+/* About Part Start */
+
+#aboutPart {
+    padding: 35px 0 80px;
+    background: #121212;
+}
+
+.about h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    width: 518px;
+    line-height: 56px;
+    position: relative;
+}
+
+.about h3::after {
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    bottom: 11px;
+    left: 195px;
+    content: "";
+}
+
+.aboutImage {
+    position: relative;
+    padding: 65px 0 50px;
+}
+
+.aboutImage::after {
+    position: absolute;
+    height: 7px;
+    width: 163px;
+    background: #FF4655;
+    top: 58px;
+    left: 0px;
+    content: "";
+}
+
+.aboutImage::before {
+    position: absolute;
+    width: 7px;
+    height: 163px;
+    background: #FF4655;
+    top: 58px;
+    left: -7px;
+    content: "";
+}
+
+.aboutPoint h3 {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1.5px;
+    padding: 170px 0 0 0;
+}
+
+.aboutPoint h6 {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.aboutPoint i {
+    font-size: 16px;
+    color: #FF4655;
+    margin-right: 10px;
+}
+
+.aboutPoint p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 22px;
+    font-family: "Oswald", sans-serif;
+    padding: 20px 0 30px 0;
+}
+
+.aboutBtn a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    padding: 15px 25px;
+    background: #212121;
+    display: inline-block;
+    transition: .5s;
+}
+
+ .aboutBtn a:hover {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    background: rgba(189, 83, 64, 0.849);
+    
+ }
+.aboutBtn i {
+    font-size: 13px;
+    color: #fff;
+    transition: .5s;
+}
+
+.aboutBtn a:hover i {
+    color: #000;
+}
+
+/* About Part End */
+
+/* Counter Part Start */
+#counterPart {
+    background: #121212;
+    padding-bottom: 80px;
+}
+
+.counterItem {
+    padding: 30px 90px;
+    background: #212121;
+    border-radius: 0 50px;
+    transition: .5s;
+}
+
+.counterItem:hover {
+    transform: scale(0.9);
+    background: #333333;
+}
+
+.counterItem h3 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.counterItem i {
+    font-size: 12px;
+    color: #f14040c9;
+}
+
+.counterItem p {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+/* Counter Part End */
