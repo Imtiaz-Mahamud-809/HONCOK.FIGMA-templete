@@ -331,3 +331,137 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 /* Counter Part End */
+
+/* Popular Part  Start  */
+#popularPart {
+  background: #191919;
+  padding: 115px 0 90px 0;
+}
+
+.popularHeading h3 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  line-height: 45px;
+  text-align: right;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.popularHeading h3::after {
+  position: absolute;
+  height: 3px;
+  width: 105px;
+  background: #ff4655;
+  right: 140px;
+  bottom: 0;
+  content: "";
+}
+.witcherImage {
+  padding-top: 174px;
+}
+.witcherImage img {
+  transition: 0.4s;
+}
+.witcherImage img:hover {
+  transform: scale(1.1);
+}
+.valorentImage img {
+  transition: 0.4s;
+}
+.valorentImage img:hover {
+  transform: scale(1.1);
+}
+.popularButton {
+  position: relative;
+}
+.popularButton1 {
+  position: absolute;
+  right: -20px;
+  bottom: 50px;
+  font-size: 40px;
+  color: #fff;
+}
+.popularButton2 {
+  position: absolute;
+  right: -20px;
+  bottom: 50px;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Popular Part  End */
+
+/* Live Stream Part Start  */
+#liveStreamPart {
+  background: #121212;
+}
+#liveStreamPart h3 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 38px;
+  font-family: "Oswald", sans-serif;
+  padding-top: 80px;
+  padding-bottom: 68px;
+  position: relative;
+}
+#liveStreamPart h3::after {
+  position: absolute;
+  background: #ff4655;
+  width: 120px;
+  height: 8px;
+  top: 162px;
+  left: 200px;
+  content: "";
+}
+.firstImg img {
+  width: 100%;
+}
+.secondImg img {
+  width: 100%;
+  margin-top: -10px;
+}
+.thirdImg img {
+  width: 100%;
+}
+.allImg img {
+  transition: 0.4s;
+}
+.allImg img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.0);
+}
+.liveText h4 {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  clip-path: polygon(0 0, 100% 0, 92% 100%, 0 100%);
+  align-items: center;
+
+  background: #212121;
+}
+.clockText h5 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-right: 60px;
+}
+.clockPartOne {
+  padding-bottom: 60px;
+}
+.clockLogo img{
+    width: 100%;
+}
+
+
+/* Live Stream Part End  */
