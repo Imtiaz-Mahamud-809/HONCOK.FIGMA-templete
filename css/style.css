@@ -463,5 +463,74 @@ h1,h2,h3,h4,h5,h6,p {
     width: 100%;
 }
 
+.liveImageHolder {
+  display: flex;
+  align-items: center;
+}
+.liveImage img {
+  padding-top: 80px;
+  transition: 0.5s;
+  transform: scale(0.95);
+  filter: grayscale(100%);
+  width: 100%;
+}
+.liveImage img:hover {
+  transform: scale(1.04);
+  filter: grayscale(0%);
+}
+
+
+.liveMatchHeading h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  padding: 60px 0;
+}
+
+.teamImg img {
+  width: 100%;
+}
+.teamImg h4 {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 500;
+  top: 40px;
+  bottom: 40px;
+  left: 220px;
+  right: 60px;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.teamImgTwo img {
+  width: 100%;
+}
+.teamImgTwo h4 {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 500;
+  top: 40px;
+  bottom: 40px;
+  left: 60px;
+  right: 220px;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.matchTime h5 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 80px;
+}
+.timeM {
+  display: flex;
+}
+.timeM2 {
+  display: flex;
+  padding-top: 60px;
+}
 
 /* Live Stream Part End  */
